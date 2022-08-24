@@ -1,0 +1,36 @@
+h1{
+  color: rgb(209, 209, 231);
+  font-family: fantasy;
+
+}
+
+p{
+  color: rgb(234, 245, 173);
+  font-family: sans-serif;
+}
+
+.container{
+  background-color: blueviolet;
+  border: 1px solid black;
+
+}
+
+h1:hover{
+  color: white;
+}
+
+p:hover{
+  color: rgb(63, 63, 5);
+}
+
+.list{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}

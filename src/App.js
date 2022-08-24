@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './hello';
+import './hello.css';
+
+function parrafo (){
+  return(
+  <p>hola soy un nuevo elemento</p>
+  );
+}
 
 function App() {
   return (
@@ -18,8 +26,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <HelloWorld />
     </div>
   );
 }
 
 export default App;
+
